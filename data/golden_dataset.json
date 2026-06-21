@@ -1,0 +1,185 @@
+[
+  {
+    "id": "TC001",
+    "input": "I was charged twice for my subscription last month and need a refund.",
+    "expected_category": "billing",
+    "difficulty": "easy",
+    "notes": "Clear billing issue"
+  },
+  {
+    "id": "TC002",
+    "input": "Your app keeps crashing every time I try to upload a profile picture.",
+    "expected_category": "technical",
+    "difficulty": "easy",
+    "notes": "Clear technical issue"
+  },
+  {
+    "id": "TC003",
+    "input": "I want to cancel my account because I keep getting charged for a plan I never signed up for.",
+    "expected_category": "billing",
+    "difficulty": "hard",
+    "notes": "Ambiguous - could be account or billing, model picks billing"
+  },
+  {
+    "id": "TC004",
+    "input": "I requested a refund for my annual plan but haven't received it yet.",
+    "expected_category": "billing",
+    "difficulty": "easy",
+    "notes": "Clear refund request"
+  },
+  {
+    "id": "TC005",
+    "input": "I was billed after canceling my subscription.",
+    "expected_category": "billing",
+    "difficulty": "easy",
+    "notes": "Clear incorrect charge"
+  },
+  {
+    "id": "TC006",
+    "input": "Why is my invoice showing an extra service fee this month?",
+    "expected_category": "billing",
+    "difficulty": "easy",
+    "notes": "Pricing clarification"
+  },
+  {
+    "id": "TC007",
+    "input": "Can you explain the difference between the monthly and yearly pricing plans?",
+    "expected_category": "billing",
+    "difficulty": "easy",
+    "notes": "Pricing question"
+  },
+  {
+    "id": "TC008",
+    "input": "My credit card was charged even though my payment failed initially.",
+    "expected_category": "billing",
+    "difficulty": "easy",
+    "notes": "Duplicate payment issue"
+  },
+  {
+    "id": "TC009",
+    "input": "The application freezes every time I open the settings page.",
+    "expected_category": "technical",
+    "difficulty": "easy",
+    "notes": "App bug"
+  },
+  {
+    "id": "TC010",
+    "input": "The search feature isn't returning any results even for valid keywords.",
+    "expected_category": "technical",
+    "difficulty": "easy",
+    "notes": "Feature malfunction"
+  },
+  {
+    "id": "TC011",
+    "input": "Notifications stopped working after the latest update.",
+    "expected_category": "technical",
+    "difficulty": "easy",
+    "notes": "Broken functionality"
+  },
+  {
+    "id": "TC012",
+    "input": "The website shows a blank screen when I try to access my dashboard.",
+    "expected_category": "technical",
+    "difficulty": "easy",
+    "notes": "Display issue"
+  },
+  {
+    "id": "TC013",
+    "input": "I can't upload documents because the upload button doesn't respond.",
+    "expected_category": "technical",
+    "difficulty": "easy",
+    "notes": "UI feature not working"
+  },
+  {
+    "id": "TC014",
+    "input": "I forgot my password and need help resetting it.",
+    "expected_category": "account",
+    "difficulty": "easy",
+    "notes": "Password reset"
+  },
+  {
+    "id": "TC015",
+    "input": "I'm unable to log into my account even with the correct credentials.",
+    "expected_category": "account",
+    "difficulty": "easy",
+    "notes": "Login issue"
+  },
+  {
+    "id": "TC016",
+    "input": "How can I change the email address linked to my profile?",
+    "expected_category": "account",
+    "difficulty": "easy",
+    "notes": "Profile update"
+  },
+  {
+    "id": "TC017",
+    "input": "I'd like to update my display name on my account.",
+    "expected_category": "account",
+    "difficulty": "easy",
+    "notes": "Profile change"
+  },
+  {
+    "id": "TC018",
+    "input": "Can you help me enable two-factor authentication on my account?",
+    "expected_category": "account",
+    "difficulty": "easy",
+    "notes": "Account security setting"
+  },
+  {
+    "id": "TC019",
+    "input": "I just wanted to say your customer support team has been amazing!",
+    "expected_category": "general",
+    "difficulty": "easy",
+    "notes": "Compliment"
+  },
+  {
+    "id": "TC020",
+    "input": "Do you have any plans to add dark mode in the future?",
+    "expected_category": "general",
+    "difficulty": "easy",
+    "notes": "General feature inquiry"
+  },
+  {
+    "id": "TC021",
+    "input": "I really enjoy using the app, keep up the great work!",
+    "expected_category": "general",
+    "difficulty": "easy",
+    "notes": "Positive feedback"
+  },
+  {
+    "id": "TC022",
+    "input": "Where is your company headquartered?",
+    "expected_category": "general",
+    "difficulty": "easy",
+    "notes": "General information request"
+  },
+  {
+    "id": "TC023",
+    "input": "I accidentally upgraded my plan and now I can't log into my account.",
+    "expected_category": "account",
+    "difficulty": "hard",
+    "notes": "Ambiguous between billing and account; primary issue is login"
+  },
+  {
+    "id": "TC024",
+    "input": "After updating my payment method, the app won't let me access premium features.",
+    "expected_category": "billing",
+    "difficulty": "hard",
+    "notes": "Ambiguous between billing and technical; payment-related access issue"
+  },
+  {
+    "id": "TC025",
+    "input": "I changed my email address and now my subscription seems to have disappeared.",
+    "expected_category": "account",
+    "difficulty": "hard",
+    "notes": "Ambiguous between account and billing; triggered by account change"
+  },
+  {
+    "id": "TC026",
+    "input": "I keep getting an error when trying to cancel my paid membership.",
+    "expected_category": "technical",
+    "difficulty": "hard",
+    "notes": "Ambiguous between billing and technical; cancellation blocked by system error"
+  }
+
+]

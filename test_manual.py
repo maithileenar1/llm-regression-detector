@@ -3,7 +3,7 @@ from classifier import load_prompt, classify_email
 prompt = load_prompt("v1")
 
 result = classify_email(
-    "Hi, I was charged twice for my subscription last month and need a refund.",
+    "I want to cancel my account because I keep getting charged for a plan I never signed up for",
     prompt
 )
 
